@@ -68,6 +68,9 @@ body{
     text-align: center;
     padding: 10px;
 }
+footer{
+    color: #f4f4f4;
+}
 
 /* screen below 980px*/
 @media screen and (max-width: 980px) {
