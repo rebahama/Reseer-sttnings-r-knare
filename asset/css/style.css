@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
-body{
+
+body {
     background-color: #000080;
-   font-family: Lato, sans-serif;
-   font-weight: bold;
-   color: #000000;
-   
-}
-* {
-   /*remove browser defualt settings*/
-   margin: 0;
-   padding: 0;
-   border: none;
-   box-sizing: border-box;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    color: #000000;
+
 }
 
-.flex-container-1{
+* {
+    /*remove browser defualt settings*/
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.flex-container-1 {
     display: flex;
     min-height: 80vh;
     justify-content: center;
@@ -24,8 +26,11 @@ body{
     text-align: center;
     letter-spacing: 1px;
 }
+input[type="text"]{
+    font-size: 15px;
+}
 
-#inner-flex-1{
+#inner-flex-1 {
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -38,22 +43,23 @@ body{
     width: 45%;
 }
 
-#result, #result-2{
+#result,
+#result-2 {
     border: 3px #000000 solid;
     display: none;
 }
 
-#count-btn{
+#count-btn {
     background-color: #000080;
-   border: none;
-   color: white;
-   padding: 12px 30px;
-   text-align: center;
-   text-decoration: none;
-   cursor: pointer;
-   margin-top: 2%;
-   border-radius: 5px;
-   border: 3px #000000 solid;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 2%;
+    border-radius: 5px;
+    border: 3px #000000 solid;
 }
 
 .input-field {
@@ -63,33 +69,38 @@ body{
     border-radius: 3%;
 }
 
-.intro-header{
+.intro-header {
     background-color: #000000;
-    color:#f4f4f4;
+    color: #f4f4f4;
     height: 155px;
     text-align: center;
     padding: 10px;
 }
-footer{
+
+footer {
     color: #f4f4f4;
 }
 
 /* screen below 980px*/
 @media screen and (max-width: 980px) {
-#result, #result-2{
-    font-size: 90%;
-}
+
+    #result,
+    #result-2 {
+        font-size: 90%;
+    }
 
 }
-@media screen and (max-width: 500px){
-    #inner-flex-1{
+
+@media screen and (max-width: 500px) {
+    #inner-flex-1 {
         height: 440px;
         width: 100%;
         margin-top: 15%;
-        
+
     }
-    .input-field{
+
+    .input-field {
         width: 60%;
     }
-   
+
 }
