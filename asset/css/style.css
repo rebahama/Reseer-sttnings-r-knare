@@ -12,11 +12,11 @@ body{
    box-sizing: border-box;
 }
 
-#flex-container-1{
+.flex-container-1{
     display: flex;
     min-height: 80vh;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 8%;
     min-height: 80vh;
     font-size: 130%;
 }
@@ -31,9 +31,10 @@ body{
     background-color: #f7e706;
     align-items: center;
     justify-content: space-evenly;
+    width: 45%;
 }
 
-#result{
+#result, #result-2{
     border: 3px #000000 solid;
     display: none;
 }
@@ -56,4 +57,31 @@ body{
     padding: 12px 20px;
     border: 1px solid #ccc;
     border-radius: 3%;
+}
+
+.intro-header{
+    background-color: #000000;
+    color:#f4f4f4;
+    height: 180px;
+    text-align: center;
+}
+
+/* screen below 980px*/
+@media screen and (max-width: 980px) {
+#result, #result-2{
+    font-size: 90%;
+}
+
+}
+@media screen and (max-width: 500px){
+    #inner-flex-1{
+        height: 440px;
+        width: 100%;
+        margin-top: 15%;
+        
+    }
+    .input-field{
+        width: 60%;
+    }
+   
 }
