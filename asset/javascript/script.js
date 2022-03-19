@@ -8,8 +8,8 @@ let resultTwo=document.getElementById('result-2');
 countBtn.addEventListener('click', countAll)
 
 function countAll(){
-let pass=parseInt(passShift.value);
-let distans=parseInt(passDistans.value);
+let pass=parseFloat(passShift.value);
+let distans=parseFloat(passDistans.value);
 let summanm=pass*distans*18.50;
 let everyThing = pass*distans*18.50-11000
 
