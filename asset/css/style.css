@@ -1,0 +1,59 @@
+body{
+    background-color: #000080;
+   font-family: 'Architects Daughter', cursive;
+   color: #000000;
+   
+}
+* {
+   /*remove browser defualt settings*/
+   margin: 0;
+   padding: 0;
+   border: none;
+   box-sizing: border-box;
+}
+
+#flex-container-1{
+    display: flex;
+    min-height: 80vh;
+    justify-content: center;
+    margin-top: 5%;
+    min-height: 80vh;
+    font-size: 130%;
+}
+
+#inner-flex-1{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    height: 450px;
+    border: 10px #000000 solid;
+    background-color: #f7e706;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#result{
+    border: 3px #000000 solid;
+    display: none;
+}
+
+#count-btn{
+    background-color: #000080;
+   border: none;
+   color: white;
+   padding: 12px 30px;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+   margin-top: 2%;
+   border-radius: 5px;
+   border: 3px #000000 solid;
+}
+
+.input-field {
+    width: 20%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 3%;
+}
