@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 body{
     background-color: #000080;
-   font-family: 'Architects Daughter', cursive;
+   font-family: Lato, sans-serif;
+   font-weight: bold;
    color: #000000;
    
 }
@@ -62,8 +64,9 @@ body{
 .intro-header{
     background-color: #000000;
     color:#f4f4f4;
-    height: 180px;
+    height: 155px;
     text-align: center;
+    padding: 10px;
 }
 
 /* screen below 980px*/
