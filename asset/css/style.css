@@ -18,9 +18,11 @@ body{
     display: flex;
     min-height: 80vh;
     justify-content: center;
-    margin-top: 8%;
-    min-height: 80vh;
-    font-size: 130%;
+    min-height: 100vh;
+    font-size: 105%;
+    padding: 9%;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 #inner-flex-1{
