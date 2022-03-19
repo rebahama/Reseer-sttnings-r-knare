@@ -10,12 +10,12 @@ countBtn.addEventListener('click', countAll)
 function countAll(){
 let pass=parseInt(passShift.value);
 let distans=parseInt(passDistans.value);
+let summanm=pass*distans*18.50;
+let everyThing = pass*distans*18.50-11000
 
-let everyThing = pass*distans*18.50;
-
-result.innerHTML=`Du kommer att få tillbaka ${everyThing-11000} Kr i reseersättning`;
+result.innerHTML=`Du kommer att få tillbaka ${Math.round(everyThing*0.30)} Kr i reseersättning`;
 result.style.display="block";
-resultTwo.innerHTML=`Du skriver summan ${everyThing} Kr i deklarationen.`;
+resultTwo.innerHTML=`Du skriver summan ${Math.round(summanm)} Kr i deklarationen.`;
 resultTwo.style.display="block";
 
 }
