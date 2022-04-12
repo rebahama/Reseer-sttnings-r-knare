@@ -24,4 +24,5 @@ function countAll() {
         resultTwo.style.display = "block";
     }
    console.log(newPass)
+   console.log(summanm)
 }
